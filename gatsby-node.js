@@ -7,7 +7,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const result = await graphql(
     `
       {
-        allContentfulVuistje {
+        allContentfulVuist {
           edges {
             node {
               id: contentful_id
